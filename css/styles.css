@@ -1,0 +1,168 @@
+/****************TAG SELECTORS**************/
+body {
+  background-color: white;
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin-top: 0;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  margin-bottom: 0;
+  color: #66BFBF;
+  padding-bottom: 20px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+hr {
+  border-color: lightgrey;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  width: 4%;
+  margin: 100px auto;
+}
+
+table {
+  text-align: left;
+}
+
+a {
+  color: #11999E;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 10px 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a:hover {
+  color: #EAf6f6;
+}
+
+p {
+    line-height: 2;
+}
+
+/****************CLASS SELECTORS*************/
+
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+  }
+
+.middle-container {
+  margin-bottom: 75px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 40px 0 20px;
+}
+
+.copyright {
+  color: #EAF6F6;
+  padding-top: 20px;
+  font-size: 0.9rem;
+}
+
+.librarian {
+  text-decoration: underline;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.maria-img {
+  border-radius: 50%;
+  width: 175px;
+  }
+
+.web-img {
+  border-radius: 50%;
+  width: 150px;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+
+.hobby-img {
+  border-radius: 50%;
+  width: 175px;
+  float: right;
+  margin-left: 30px;
+  position: relative;
+  top: 50px;
+}
+
+.profession {
+  font-weight: normal;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 0 auto 150px auto;
+  text-align: left;
+  }
+
+.profile {
+  width: 30%;
+  margin: 100px auto;
+}
+
+.contact-me {
+  width: 40%;
+  margin: 40px auto 40px;
+}
+
+.btn {
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+  background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30E3CB;
+  background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+  text-decoration: none;
+}
+
+/*****************ID SELECTORS***************/
